@@ -1,9 +1,9 @@
 package com.example.Controller;
 
 
-import com.appasso.projet.Finance;
 
-import com.appasso.repository.FinanceRepository;
+import com.example.model.Finance;
+import com.example.repository.FinanceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

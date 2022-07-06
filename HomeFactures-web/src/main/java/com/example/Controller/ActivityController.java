@@ -1,8 +1,9 @@
 package com.example.Controller;
 
-import com.appasso.projet.Activity;
-import com.appasso.repository.ActivityRepository;
 
+
+import com.example.model.Activity;
+import com.example.repository.ActivityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 //import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
 package com.example.Controller;
 
-import com.appasso.projet.Administration;
 
-import com.appasso.repository.AdministrationRepository;
+import com.example.model.Administration;
+import com.example.repository.AdministrationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 //import org.springframework.web.bind.annotation.*;

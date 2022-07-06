@@ -1,9 +1,9 @@
 package com.example.Controller;
 
 
-import com.appasso.projet.Document;
 
-import com.appasso.repository.DocumentRepository;
+import com.example.model.Document;
+import com.example.repository.DocumentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

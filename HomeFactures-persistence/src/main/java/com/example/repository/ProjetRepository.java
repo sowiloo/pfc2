@@ -1,7 +1,8 @@
 package com.example.repository;
 
-import com.appasso.projet.Projet;
 
+
+import com.example.model.Projet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

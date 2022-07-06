@@ -2,8 +2,9 @@ package com.example.Controller;
 
 
 
-import com.appasso.projet.Projet;
-import com.appasso.repository.ProjetRepository;
+
+import com.example.model.Projet;
+import com.example.repository.ProjetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

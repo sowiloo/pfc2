@@ -1,12 +1,13 @@
 package com.example.Controller;
 
-import com.appasso.projet.User;
-import com.appasso.repository.UserRepository;
+
+import com.example.model.User;
+import com.example.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.jws.soap.SOAPBinding;
+//import javax.jws.soap.SOAPBinding;
 import javax.validation.Valid;
 import java.net.URI;
 import java.net.URISyntaxException;

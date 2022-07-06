@@ -1,8 +1,8 @@
 package com.example.Controller;
 
 
-import com.appasso.projet.Association;
-import com.appasso.repository.AssociationRepository;
+import com.example.model.Association;
+import com.example.repository.AssociationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +17,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api")
 public class AssociationController {
-    @Autowired AssociationRepository associationRepository;
+    @Autowired
+    AssociationRepository associationRepository;
 
     @GetMapping ("/associations")
     public List<Association> getAssociation(){
