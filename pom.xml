@@ -86,5 +86,6 @@
 		<module>HomeFactures-persistence</module>
 		<module>HomeFactures-service</module>
 		<module>HomeFactures-web</module>
-	</modules>
+        <module>newMaven</module>
+    </modules>
 </project>
